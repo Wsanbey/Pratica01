@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = findViewById(R.id.edit_message);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
-        System.out.println("Parei no 07");
-
+        startActivity(intent);
 
     }
 }
